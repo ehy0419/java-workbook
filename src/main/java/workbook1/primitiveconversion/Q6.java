@@ -7,7 +7,9 @@ public class Q6 {
         Scanner sc = new Scanner(System.in);
         // TODO: s1, s2를 int로 변환 후 차이를 byte로 변환하여 출력
         // 1. 문자열로 두 개의 정수를 입력 받기
+        System.out.print("Enter the first number: ");
         String s1 = sc.next();
+        System.out.print("Enter the second number: ");
         String s2 = sc.next();
 
         // 2. 문자열을 int 정수형으로 변환하기
@@ -32,3 +34,6 @@ public class Q6 {
 //3. 두 정수의 차이 계산하기
 //4. 그 차이 값을 byte로 강제 형변환하기
 //5. 결과 출력
+
+/// 추가해볼 것
+// byte 오버플로우 체크 로직
