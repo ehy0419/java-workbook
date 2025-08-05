@@ -10,12 +10,11 @@ public class Q1 {
         for (int num = 1; num <= 100; num++) {
             //2. 숫자 num은 10의 배수인지 확인
             if (num % 10 == 0) break; //4. 10의 배수를 나오면 종료
-            // 10의 배수가 나오기 전까지의 합을 누적해서 합
-            sum += num;
+            sum += num;     //3. 10의 배수가 나오기 전까지의 숫자들을 누적해서 sum에 더함
         }
 
         // 합을 출력
-        System.out.println("10의 배수 이전까지의 합 : " + sum);  // 초기화된 sum 적용
+        System.out.println("10의 배수 이전까지의 합 : " + sum); // 초기화된 sum 적용
     }
 }
 
