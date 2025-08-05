@@ -14,9 +14,23 @@ public class Q5 {
         System.out.print("실수 z를 입력해주세요: ");
         double z = sc.nextDouble();
 
+        //2. 실수 값을 int로 정수형으로 강제 변환시키기
+        int ix = (int) x;
+        int iy = (int) y;
+        int iz = (int) z;
+
+        //3. 변환된 정수 값의 평균 계산하기 (float 값으로)
+        int sum = ix + iy + iz;
+        float avg = (float) sum / 3;
+
+        //4. 평균값을 float로 출력하기
+        System.out.println("평균: " + avg);
     }
 }
 
 /// 사고흐름
 //1. 실수 값 3개 입력받기
+//2. 실수 값을 int로 정수형으로 강제 변환시키기
+//3. 변환된 정수 값의 평균 계산하기
+//4. 평균값을 float로 출력하기
 
