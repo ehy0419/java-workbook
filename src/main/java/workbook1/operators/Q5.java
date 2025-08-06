@@ -19,6 +19,10 @@ public class Q5 {
 
         // 입력 결과
         System.out.println("결과: " + a + " " + b + " " + c);
+
+        //  main() { 코드 종료 }
+        // 코드 종료
+        sc.close();
     }
 }
 

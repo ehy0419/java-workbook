@@ -22,5 +22,8 @@ public class Q1 {
         //3.결과는 공백으로 구분해서 출력하기
         System.out.println("결과: " + sum + " " + diff + " " + mul + " " + div + " " + mod);
 
+        //  main() { 코드 종료 }
+        // 코드 종료
+        sc.close();
     }
 }

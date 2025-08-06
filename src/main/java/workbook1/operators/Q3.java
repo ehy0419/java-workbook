@@ -21,6 +21,10 @@ public class Q3 {
 
         // 논리 연산자 !
         System.out.println(!result); // true
+
+        //  main() { 코드 종료 }
+        // 코드 종료
+        sc.close();
     }
 }
 

@@ -21,6 +21,10 @@ public class Q2 {
         //4. 결과 출력
 //        System.out.println(preInc + " " + num + " " + postInc); // 6 7 6
         System.out.println(preInc + " " + postInc); // 6 6
+
+        //  main() { 코드 종료 }
+        // 코드 종료
+        sc.close();
     }
 }
 

@@ -24,6 +24,10 @@ public class Q4 {
 
         // 평가 결과 출력
         System.out.println(result);
+
+        //  main() { 코드 종료 }
+        // 코드 종료
+        sc.close();
     }
 }
 
