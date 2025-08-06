@@ -29,6 +29,10 @@ public class Q3 {
 
         //4. 결과 출력
         System.out.println("결과 : " + sumf);
+
+        //  main() { 코드 종료 }
+        // 코드 종료
+        sc.close();
     }
 }
 

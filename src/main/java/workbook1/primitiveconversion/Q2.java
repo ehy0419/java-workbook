@@ -25,6 +25,10 @@ public class Q2 {
 
         //5. 결과 출력 (소수점 이하 출력) - 서식 포함된 문자열
         System.out.printf("결과: %.2f\n", minus);
+
+        //  main() { 코드 종료 }
+        // 코드 종료
+        sc.close();
     }
 }
 

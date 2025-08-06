@@ -25,6 +25,10 @@ public class Q5 {
 
         //4. 평균값을 float로 출력하기
         System.out.println("평균: " + avg); // 평균 : 4.0
+
+        //  main() { 코드 종료 }
+        // 코드 종료
+        sc.close();
     }
 }
 

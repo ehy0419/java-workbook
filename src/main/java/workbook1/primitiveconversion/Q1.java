@@ -24,6 +24,10 @@ public class Q1 {
         ///3. 변환된 double 타입의 합을 (int)로 강제 형변환하여 출력
         int result = (int)sum;
         System.out.println("결과: " + result); // 15
+
+        //  main() { 코드 종료 }
+        // 코드 종료
+        sc.close();
     }
 }
 

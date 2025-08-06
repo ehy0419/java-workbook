@@ -24,6 +24,10 @@ public class Q4 {
 
         // 결과 출력
         System.out.printf("결과: %.1f\n", sum);
+
+        //  main() { 코드 종료 }
+        // 코드 종료
+        sc.close();
     }
 }
 

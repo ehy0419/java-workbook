@@ -25,6 +25,10 @@ public class Q6 {
 
         // 5. 결과 출력
         System.out.println("결과: " + result);
+
+        //  main() { 코드 종료 }
+        // 코드 종료
+        sc.close();
     }
 }
 
