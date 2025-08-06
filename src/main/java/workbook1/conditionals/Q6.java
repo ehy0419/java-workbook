@@ -14,7 +14,7 @@ public class Q6 {
 
         if (BMI >= 30) {
             System.out.println("비만");   // BMI가 30 이상이면 “비만"
-        } else if (BMI >= 30) {
+        } else if (BMI >= 25) {
             System.out.println("과체중"); // BMI가 25 이상이면 “과체중”
         }  else if (BMI >= 18.5) {
             System.out.println("정상");   // BMI가 18.5 이상이면 “정상”
