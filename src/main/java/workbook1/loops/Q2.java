@@ -16,8 +16,8 @@ public class Q2 {
         // 짝수의 합 - 짝수 조건식
         // 홀수의 합 - 홀수 조건식
 
-        int evenSum = 0;    // 짝수의 합
         int oddSum = 0;     // 홀수의 합
+        int evenSum = 0;    // 짝수의 합
 
         // 오류 : n= 5 일 때, 2+4 가 맞음
         // 아래 식에서는 4 + 6 + 8 + 10이 되버림..
@@ -36,8 +36,8 @@ public class Q2 {
             }
         }
 
-        System.out.println("짝수의 합: " + evenSum);
         System.out.println("홀수의 합: " + oddSum);
+        System.out.println("짝수의 합: " + evenSum);
 
         sc.close();
     }
