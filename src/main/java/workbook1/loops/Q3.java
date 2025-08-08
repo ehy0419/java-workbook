@@ -53,14 +53,14 @@ public class Q3 {
         //            System.out.println(target + "는 " + num + "의 배수가 아닙니다.");
         //        }
 
-
         int sum = 0;
         int num = 1;  // 1부터 n까지의 수
 
         do {
-            if(n % 3 == 0){
-                sum += n;
+            if(num % 3 == 0){
+                sum += num;
             }
+            num++;
         } while (num <= n);
 
         System.out.println("3의 배수의 합: "+ sum);
