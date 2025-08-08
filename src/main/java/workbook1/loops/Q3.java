@@ -41,7 +41,6 @@ public class Q3 {
         //            System.out.println(num + " * " + i + " = " + (num * i));
         //        }
 
-
         /// 배수 판별
         //주어진 수 (target)를 판별하려는 수 (num)로 나눈 나머지가 0인지 확인하여 배수 여부를 판단합니다.
         //나머지가 0이면 target은 num의 배수입니다.
@@ -59,8 +58,11 @@ public class Q3 {
         int num = 1;  // 1부터 n까지의 수
 
         do {
-            if(n%num==0){}
+            if(n % 3 == 0){
+                sum += n;
+            }
         } while (num <= n);
 
+        System.out.println("3의 배수의 합: "+ sum);
     }
 }
