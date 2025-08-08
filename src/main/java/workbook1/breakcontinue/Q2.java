@@ -7,7 +7,7 @@ public class Q2 {
             if (num % 2 == 0) continue;             //사고흐름 2.
             System.out.print(num);                  //사고흐름 4.
         }
-        //응용
+        //홀수에서 짝수로 변경
         /// 줄바꾸기
 //        System.out.println();   // 13579 <br> 246810
         /// 반대로 1~10 사이의 짝수만 출력하도록 continue 사용
